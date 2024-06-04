@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Buttons to open modal -->
+  <button class="open-modal" data-modal="modal1">Open Modal 1</button>
+  <button class="open-modal" data-modal="modal1">Open Modal 1 Again</button>
+  <button class="open-modal" data-modal="modal2">Open Modal 2</button>
+
+  <!-- Modal 1 -->
+  <div class="modal" id="modal1">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>This is Modal 1</p>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal" id="modal2">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>This is Modal 2</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
