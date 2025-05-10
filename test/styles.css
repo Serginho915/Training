@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 50px); /* 10 колонок, каждая шириной 50px */
+    grid-template-rows: repeat(10, 50px); /* 10 строк, каждая высотой 50px */
+    gap: 5px; /* Отступ между ячейками */
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grid-item {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .grid-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .third{
+    background-color: #ffcc00;  
+    border: #f0f0f0 1px solid;
+    width: 50px;
+    height: 50px;
+  }
+
+  .first{
+    background-color: #ff0000;  
+    border: #f0f0f0 1px solid;
+    width: 90px;
+    height: 90px;
+  }
+  .second{
+    background-color: #00ff00;  
+    border: #f0f0f0 1px solid;
+    width: 70px;
+    height: 70px;
+  }
